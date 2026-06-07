@@ -1,17 +1,17 @@
 class Solvix < Formula
-  desc "Computational intelligence layer for developers"
+  desc "Continuous codebase judgment CLI for developers"
   homepage "https://github.com/celpha2svx/solvix"
-  version "0.3.1"
+  version "0.4.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/celpha2svx/solvix/releases/download/v0.3.1/solvix-macos-x64"
-      sha256 "71a9786924a1dbd76dcf33f54d880bd8d106867a6b80dc7db1f9d3358c38f141"
+      url "https://github.com/celpha2svx/solvix/releases/download/v0.4.1/solvix-macos-x64"
+      sha256 "6cecb2a61f79882856976f90ccd38d25727248f6e666ee8d532361ca3cab64e9"
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/celpha2svx/solvix/releases/download/v0.3.1/solvix-macos-arm64"
-      sha256 "f93d3850514e5c60e9ddd6b0b71bc9e2530886271608d7ff7bcf393cdbeb9f84"
+      url "https://github.com/celpha2svx/solvix/releases/download/v0.4.1/solvix-macos-arm64"
+      sha256 "3357b1b47cde16fd422ac274caafe2c344249623c3731355c7459428eff6fa11"
     end
   end
 
